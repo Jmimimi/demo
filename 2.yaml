@@ -5,55 +5,55 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_2128 |44.24Mb, server: 173.82.108.179, port: 46346, type: vmess, uuid: eaf4ab2e-7437-4ccf-bb04-15dfff04ef7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 173.82.108.179}, udp: true}
-  - {name: Relay_ |28.14Mb, server: tt6.tjvpn.top, port: 443, type: trojan, password: 0cb2cd1f-870b-485c-914a-60aba39eed39, sni: tt6.tjvpn.top, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |21.36Mb, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
-  - {name: Relay_ | 6.95Mb, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: CN_145 | 2.50Mb, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 日本-495.1KB/s(Youtube:不良林), server: tt6.tjvpn.top, port: 443, type: trojan, password: 0cb2cd1f-870b-485c-914a-60aba39eed39, sni: tt6.tjvpn.top, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯联邦-2.96MB/s(Youtube:不良林), server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
-  - {name: 英国-931.7KB/s(Youtube:不良林), server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US_1986 |53.94Mb, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: SG_1265 | 4.25Mb, server: 159.27.115.21, port: 64078, type: vmess, uuid: 477fb2a0-daf4-3041-b6f6-5de3f42ecc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 159.27.115.21}, udp: true}
+  - {name: US_1974 |55.34Mb, server: usa006.369boy.com, port: 16001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: usa006.369boy.com, skip-cert-verify: true, udp: true}
+  - {name: 印度-2.13MB/s(Youtube:不良林), server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇺🇸US_29 | 5.40Mb, server: 162.250.191.136, port: 31250, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 英国-161.4KB/s(Youtube:不良林), server: 51.195.136.209, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: 美国-396.6KB/s(Youtube:不良林), server: usa005.369boy.com, port: 15001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: usa005.369boy.com, skip-cert-verify: true, udp: true}
+  - {name: RU_992+|+9.98Mb, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_2128 |44.24Mb
-      - Relay_ |28.14Mb
-      - Relay_ |21.36Mb
-      - Relay_ | 6.95Mb
-      - CN_145 | 2.50Mb
-      - 日本-495.1KB/s(Youtube:不良林)
-      - 俄罗斯联邦-2.96MB/s(Youtube:不良林)
-      - 英国-931.7KB/s(Youtube:不良林)
+      - US_1986 |53.94Mb
+      - SG_1265 | 4.25Mb
+      - US_1974 |55.34Mb
+      - 印度-2.13MB/s(Youtube:不良林)
+      - Relay_-🇺🇸US_29 | 5.40Mb
+      - 英国-161.4KB/s(Youtube:不良林)
+      - 美国-396.6KB/s(Youtube:不良林)
+      - RU_992+|+9.98Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_2128 |44.24Mb
-      - Relay_ |28.14Mb
-      - Relay_ |21.36Mb
-      - Relay_ | 6.95Mb
-      - CN_145 | 2.50Mb
-      - 日本-495.1KB/s(Youtube:不良林)
-      - 俄罗斯联邦-2.96MB/s(Youtube:不良林)
-      - 英国-931.7KB/s(Youtube:不良林)
+      - US_1986 |53.94Mb
+      - SG_1265 | 4.25Mb
+      - US_1974 |55.34Mb
+      - 印度-2.13MB/s(Youtube:不良林)
+      - Relay_-🇺🇸US_29 | 5.40Mb
+      - 英国-161.4KB/s(Youtube:不良林)
+      - 美国-396.6KB/s(Youtube:不良林)
+      - RU_992+|+9.98Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_2128 |44.24Mb
-      - Relay_ |28.14Mb
-      - Relay_ |21.36Mb
-      - Relay_ | 6.95Mb
-      - CN_145 | 2.50Mb
-      - 日本-495.1KB/s(Youtube:不良林)
-      - 俄罗斯联邦-2.96MB/s(Youtube:不良林)
-      - 英国-931.7KB/s(Youtube:不良林)
+      - US_1986 |53.94Mb
+      - SG_1265 | 4.25Mb
+      - US_1974 |55.34Mb
+      - 印度-2.13MB/s(Youtube:不良林)
+      - Relay_-🇺🇸US_29 | 5.40Mb
+      - 英国-161.4KB/s(Youtube:不良林)
+      - 美国-396.6KB/s(Youtube:不良林)
+      - RU_992+|+9.98Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,14 +72,14 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_2128 |44.24Mb
-      - Relay_ |28.14Mb
-      - Relay_ |21.36Mb
-      - Relay_ | 6.95Mb
-      - CN_145 | 2.50Mb
-      - 日本-495.1KB/s(Youtube:不良林)
-      - 俄罗斯联邦-2.96MB/s(Youtube:不良林)
-      - 英国-931.7KB/s(Youtube:不良林)
+      - US_1986 |53.94Mb
+      - SG_1265 | 4.25Mb
+      - US_1974 |55.34Mb
+      - 印度-2.13MB/s(Youtube:不良林)
+      - Relay_-🇺🇸US_29 | 5.40Mb
+      - 英国-161.4KB/s(Youtube:不良林)
+      - 美国-396.6KB/s(Youtube:不良林)
+      - RU_992+|+9.98Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -90,41 +90,41 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_2128 |44.24Mb
-      - Relay_ |28.14Mb
-      - Relay_ |21.36Mb
-      - Relay_ | 6.95Mb
-      - CN_145 | 2.50Mb
-      - 日本-495.1KB/s(Youtube:不良林)
-      - 俄罗斯联邦-2.96MB/s(Youtube:不良林)
-      - 英国-931.7KB/s(Youtube:不良林)
+      - US_1986 |53.94Mb
+      - SG_1265 | 4.25Mb
+      - US_1974 |55.34Mb
+      - 印度-2.13MB/s(Youtube:不良林)
+      - Relay_-🇺🇸US_29 | 5.40Mb
+      - 英国-161.4KB/s(Youtube:不良林)
+      - 美国-396.6KB/s(Youtube:不良林)
+      - RU_992+|+9.98Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_2128 |44.24Mb
-      - Relay_ |28.14Mb
-      - Relay_ |21.36Mb
-      - Relay_ | 6.95Mb
-      - CN_145 | 2.50Mb
-      - 日本-495.1KB/s(Youtube:不良林)
-      - 俄罗斯联邦-2.96MB/s(Youtube:不良林)
-      - 英国-931.7KB/s(Youtube:不良林)
+      - US_1986 |53.94Mb
+      - SG_1265 | 4.25Mb
+      - US_1974 |55.34Mb
+      - 印度-2.13MB/s(Youtube:不良林)
+      - Relay_-🇺🇸US_29 | 5.40Mb
+      - 英国-161.4KB/s(Youtube:不良林)
+      - 美国-396.6KB/s(Youtube:不良林)
+      - RU_992+|+9.98Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_2128 |44.24Mb
-      - Relay_ |28.14Mb
-      - Relay_ |21.36Mb
-      - Relay_ | 6.95Mb
-      - CN_145 | 2.50Mb
-      - 日本-495.1KB/s(Youtube:不良林)
-      - 俄罗斯联邦-2.96MB/s(Youtube:不良林)
-      - 英国-931.7KB/s(Youtube:不良林)
+      - US_1986 |53.94Mb
+      - SG_1265 | 4.25Mb
+      - US_1974 |55.34Mb
+      - 印度-2.13MB/s(Youtube:不良林)
+      - Relay_-🇺🇸US_29 | 5.40Mb
+      - 英国-161.4KB/s(Youtube:不良林)
+      - 美国-396.6KB/s(Youtube:不良林)
+      - RU_992+|+9.98Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -140,14 +140,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_2128 |44.24Mb
-      - Relay_ |28.14Mb
-      - Relay_ |21.36Mb
-      - Relay_ | 6.95Mb
-      - CN_145 | 2.50Mb
-      - 日本-495.1KB/s(Youtube:不良林)
-      - 俄罗斯联邦-2.96MB/s(Youtube:不良林)
-      - 英国-931.7KB/s(Youtube:不良林)
+      - US_1986 |53.94Mb
+      - SG_1265 | 4.25Mb
+      - US_1974 |55.34Mb
+      - 印度-2.13MB/s(Youtube:不良林)
+      - Relay_-🇺🇸US_29 | 5.40Mb
+      - 英国-161.4KB/s(Youtube:不良林)
+      - 美国-396.6KB/s(Youtube:不良林)
+      - RU_992+|+9.98Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
