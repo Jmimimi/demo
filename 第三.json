@@ -1,0 +1,45 @@
+[{
+    "bookSourceComment": "目录列表规则by河鹅和大佬，感谢大佬！！！\n24.12.2修复搜索",
+    "bookSourceGroup": "🌸静白,⑴好用",
+    "bookSourceName": "💞第三小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://mokakanshu.vip/",
+    "customOrder": 710,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+    "lastUpdateTime": 1746205809510,
+    "respondTime": 4896,
+    "ruleBookInfo": {
+        "author": "[property$=og:novel:author]@content",
+        "coverUrl": ".imgbox@img@src",
+        "intro": "[property$=og:description]@content",
+        "kind": "[property$=og:novel:category]@content",
+        "lastChapter": "{{@@[property$=og:novel:lastest_chapter_name]@content}}·{{@@[property$=og:novel:update_time]@content##\\s.*}}",
+        "name": "[property$=og:novel:book_name]@content"
+    },
+    "ruleContent": {
+        "content": "#content@p@html",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": ".s4@text",
+        "bookList": ".txt-list@li!0",
+        "bookUrl": ".s2@a@href",
+        "checkKeyWord": "我的邻居画风魔幻",
+        "kind": ".s1@text##\\[|\\]",
+        "lastChapter": "{{@@.s3@text}}·{{@@.s5@text}}",
+        "name": ".s2@text"
+    },
+    "ruleToc": {
+        "chapterList": ".section-list.1@li@a\n<js>\nlist=[]\nfor(i in result){\n\tc=result[i]\n\ttext=c.text()\n\thref=book.tocUrl+String(c.attr(\"onclick\")).match(/\\(\\d+,(.*)\\)/)[1]+'.html'\n\tif (list.length>0&&href==list[list.length-1].href){\n\t\tnexturl=book.tocUrl+String(result[i*1+1].attr(\"onclick\")).match(/\\(\\d+,(.*)\\)/)[1]+'.html'\n\t\td=java.ajax(nexturl)\n\t\thref=org.jsoup.Jsoup.parse(d).select(\"#prev_url\").attr(\"href\")\n\t\t}\n\tlist.push({text:text,href:href})\n\t}\nlist\n</js>",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "formatJs": "",
+        "nextTocUrl": "option@value||text.下一页@href"
+    },
+    "searchUrl": "{{cookie.removeCookie(source.getKey())}}\nhttps://www.d3xsw.com/search/?,{\n  \"body\": \"type=articlename&searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+    "weight": 0
+}]
