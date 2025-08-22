@@ -1,0 +1,223 @@
+#EXTM3U
+#EXTINF:-1 ,CCTV1
+http://www.dsk.cc/php/bfgd.php?id=cctv1&m.m3u8
+#EXTINF:-1 ,CCTV2
+http://www.dsk.cc/php/bfgd.php?id=cctv2&m.m3u8
+#EXTINF:-1 ,CCTV3
+http://www.dsk.cc/php/bfgd.php?id=cctv3&m.m3u8
+#EXTINF:-1 ,CCTV4
+http://www.dsk.cc/php/bfgd.php?id=cctv4&m.m3u8
+#EXTINF:-1 ,CCTV5
+http://www.dsk.cc/php/bfgd.php?id=cctv5&m.m3u8
+#EXTINF:-1 ,CCTV6
+http://www.dsk.cc/php/bfgd.php?id=cctv6&m.m3u8
+#EXTINF:-1 ,CCTV7
+http://www.dsk.cc/php/bfgd.php?id=cctv7&m.m3u8
+#EXTINF:-1 ,CCTV8
+http://www.dsk.cc/php/bfgd.php?id=cctv8&m.m3u8
+#EXTINF:-1 ,CCTV9
+http://www.dsk.cc/php/bfgd.php?id=cctv9&m.m3u8
+#EXTINF:-1 ,CCTV10
+http://www.dsk.cc/php/bfgd.php?id=cctv10&m.m3u8
+#EXTINF:-1 ,CCTV11
+http://www.dsk.cc/php/bfgd.php?id=cctv11&m.m3u8
+#EXTINF:-1 ,CCTV12
+http://www.dsk.cc/php/bfgd.php?id=cctv12&m.m3u8
+#EXTINF:-1 ,CCTV13
+http://www.dsk.cc/php/bfgd.php?id=cctv13&m.m3u8
+#EXTINF:-1 ,CCTV14
+http://www.dsk.cc/php/bfgd.php?id=cctv14&m.m3u8
+#EXTINF:-1 ,CCTV15
+http://www.dsk.cc/php/bfgd.php?id=cctv15&m.m3u8
+#EXTINF:-1 ,CCTV16
+http://www.dsk.cc/php/bfgd.php?id=cctv16&m.m3u8
+#EXTINF:-1 ,CCTV17
+http://www.dsk.cc/php/bfgd.php?id=cctv17&m.m3u8
+#EXTINF:-1 ,CCTV4美洲
+http://z.b.bkpcp.top/m.php?id=cctv4m
+#EXTINF:-1 ,CCTV4欧洲
+http://z.b.bkpcp.top/m.php?id=cctv4o
+#EXTINF:-1 ,CCTV5+
+http://www.dsk.cc/php/bfgd.php?id=cctv5p&m.m3u8
+#EXTINF:-1 ,CGTN
+https://english-livebkws.cgtn.com/live/encgtn.m3u8
+#EXTINF:-1 ,CGTN纪录
+https://english-livebkali.cgtn.com/live/doccgtn.m3u8
+#EXTINF:-1 ,北京卫视
+http://219.157.60.114:7001/rtp/225.1.4.81:1110
+#EXTINF:-1 ,东方卫视
+http://219.157.60.114:7001/rtp/225.1.4.85:1114
+#EXTINF:-1 ,天津卫视
+http://219.157.60.114:7001/rtp/225.1.4.86:1115
+#EXTINF:-1 ,重庆卫视
+http://219.157.60.114:7001/rtp/225.1.4.157:1308
+#EXTINF:-1 ,Unknown_27
+http://219.157.60.114:7001/rtp/225.1.4.91:1120
+#EXTINF:-1 ,Unknown_28
+http://219.157.60.114:7001/rtp/225.1.4.167:1208
+#EXTINF:-1 ,Unknown_29
+http://219.157.60.114:7001/rtp/225.1.4.174:1309
+#EXTINF:-1 ,Unknown_30
+http://live.ybtvyun.com/video/s10006-d48b8590849c/index.m3u8
+#EXTINF:-1 ,Unknown_31
+http://219.157.60.114:7001/rtp/225.1.4.45:1074
+#EXTINF:-1 ,Unknown_32
+http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=fe44b6c42c2e7065c441a28de6f13955
+#EXTINF:-1 ,Unknown_33
+http://219.157.60.114:7001/rtp/225.1.4.98:1127
+#EXTINF:-1 ,Unknown_34
+http://219.157.60.114:7001/rtp/225.1.4.88:1117
+#EXTINF:-1 ,Unknown_35
+http://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
+#EXTINF:-1 ,Unknown_36
+http://219.157.60.114:7001/rtp/225.1.4.38:1067
+#EXTINF:-1 ,Unknown_37
+http://219.157.60.114:7001/rtp/225.1.4.82:1111
+#EXTINF:-1 ,Unknown_38
+http://219.157.60.114:7001/rtp/225.1.4.89:1118
+#EXTINF:-1 ,Unknown_39
+http://219.157.60.114:7001/rtp/225.1.4.166:1207
+#EXTINF:-1 ,Unknown_40
+http://cdn2.163189.xyz/live/gdzj/stream.m3u8
+#EXTINF:-1 ,Unknown_41
+http://219.157.60.114:7001/rtp/225.1.4.90:1119
+#EXTINF:-1 ,Unknown_42
+http://z.b.bkpcp.top/m.php?id=dwqws
+#EXTINF:-1 ,Unknown_43
+http://219.157.60.114:7001/rtp/225.1.4.31:1060
+#EXTINF:-1 ,Unknown_44
+http://219.157.60.114:7001/rtp/225.1.4.195:1310
+#EXTINF:-1 ,Unknown_45
+http://219.157.60.114:7001/rtp/225.1.4.234:1280
+#EXTINF:-1 ,Unknown_46
+http://219.157.60.114:7001/rtp/225.1.4.87:1116
+#EXTINF:-1 ,Unknown_47
+https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8?
+#EXTINF:-1 ,Unknown_48
+http://www.dsk.cc/jstv/jstv.php?id=jsws&m.m3u8
+#EXTINF:-1 ,Unknown_49
+http://219.157.60.114:7001/rtp/225.1.4.139:1305
+#EXTINF:-1 ,Unknown_50
+http://219.157.60.114:7001/rtp/225.1.4.228:1274
+#EXTINF:-1 ,Unknown_51
+http://219.157.60.114:7001/rtp/225.1.4.95:1124
+#EXTINF:-1 ,Unknown_52
+http://goo.bkpcp.top/mg/hxws
+#EXTINF:-1 ,Unknown_53
+http://219.157.60.114:7001/rtp/225.1.4.152:1307
+#EXTINF:-1 ,Unknown_54
+http://219.157.60.114:7001/rtp/225.1.4.122:1302
+#EXTINF:-1 ,Unknown_55
+http://219.157.60.114:7001/rtp/225.1.4.151:1306
+#EXTINF:-1 ,Unknown_56
+http://zb.5kds.com/sx.php
+#EXTINF:-1 ,Unknown_57
+http://gxlive.snrtv.com/nlws-SD.m3u8
+#EXTINF:-1 ,Unknown_58
+http://219.157.60.114:7001/rtp/225.1.4.42:1071
+#EXTINF:-1 ,Unknown_59
+http://219.157.60.114:7001/rtp/225.1.4.43:1072
+#EXTINF:-1 ,Unknown_60
+http://219.157.60.114:7001/rtp/225.1.4.44:1073
+#EXTINF:-1 ,Unknown_61
+http://219.157.60.114:7001/rtp/225.1.4.47:1076
+#EXTINF:-1 ,Unknown_62
+https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
+#EXTINF:-1 ,Unknown_63
+http://php.jdshipin.com:8880/xztv.php?id=ws
+#EXTINF:-1 ,Unknown_64
+http://cdn.163189.xyz/live/fhzw/stream.m3u8
+#EXTINF:-1 ,Unknown_65
+https://cdn3.163189.xyz/live/fhzx/stream.m3u8
+#EXTINF:-1 ,Unknown_66
+http://dns.yiandrive.com:15907/phenix/fhhk#http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhhk2
+#EXTINF:-1 ,Unknown_67
+http://php.jdshipin.com/TVOD/iptv.php?id=huali2
+#EXTINF:-1 ,Unknown_68
+https://cdn.163189.xyz/live/fct4k/stream.m3u8
+#EXTINF:-1 ,Unknown_69
+http://php.jdshipin.com/TVOD/iptv.php?id=j2
+#EXTINF:-1 ,Unknown_70
+https://cdn.163189.xyz/live/tvbp/stream.m3u8
+#EXTINF:-1 ,Unknown_71
+http://php.jdshipin.com:8880/PLTV/iptv.php?id=xinghe
+#EXTINF:-1 ,Unknown_72
+http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
+#EXTINF:-1 ,Unknown_73
+http://qjrhc.jydjd.top:2911/udp/224.1.100.123:11111
+#EXTINF:-1 ,Unknown_74
+http://php.jdshipin.com:8880/smt.php?id=inews_twn
+#EXTINF:-1 ,Unknown_75
+http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
+#EXTINF:-1 ,Unknown_76
+http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
+#EXTINF:-1 ,Unknown_77
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=meiya
+#EXTINF:-1 ,Unknown_78
+rtmp://f13h.mine.nu/sat/tv761
+#EXTINF:-1 ,Unknown_79
+http://61.221.215.25:8800/hls/9/index.m3u8
+#EXTINF:-1 ,Unknown_80
+rtmp://f13h.mine.nu/sat/tv331
+#EXTINF:-1 ,Unknown_81
+http://61.221.215.25:8800/hls/39/index.m3u8
+#EXTINF:-1 ,Unknown_82
+http://61.221.215.25:8800/hls/55/index.m3u8
+#EXTINF:-1 ,Unknown_83
+http://61.221.215.25:8800/hls/56/index.m3u8
+#EXTINF:-1 ,Unknown_84
+https://pulltv1.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 ,Unknown_85
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 ,Unknown_86
+http://www.dalitv.com.tw:4568/live/dali/index.m3u8
+#EXTINF:-1 ,Unknown_87
+rtmp://f13h.mine.nu/sat/tv731
+#EXTINF:-1 ,Unknown_88
+rtmp://f13h.mine.nu/sat/tv741
+#EXTINF:-1 ,Unknown_89
+rtmp://f13h.mine.nu/sat/tv581
+#EXTINF:-1 ,Unknown_90
+rtmp://f13h.mine.nu/sat/tv111
+#EXTINF:-1 ,Unknown_91
+http://aktv.top/AKTV/live/aktv/null-9/AKTV.m3u8
+#EXTINF:-1 ,Unknown_92
+http://zb.xzxwhcb.com:9999/hls/world.m3u8
+#EXTINF:-1 ,Unknown_93
+https://aktv.top/AKTV/live/aktv/null6/AKTV.m3u8
+#EXTINF:-1 ,Unknown_94
+rtmp://f13h.mine.nu/sat/tv051
+#EXTINF:-1 ,Unknown_95
+http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
+#EXTINF:-1 ,Unknown_96
+http://61.221.215.25:8800/hls/41/index.m3u8
+#EXTINF:-1 ,Unknown_97
+https://aktv.top/AKTV/live/aktv/null13/AKTV.m3u8
+#EXTINF:-1 ,Unknown_98
+rtmp://f13h.mine.nu/sat/tv071
+#EXTINF:-1 ,Unknown_99
+http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
+#EXTINF:-1 ,Unknown_100
+http://61.221.215.25:8800/hls/48/index.m3u8
+#EXTINF:-1 ,Unknown_101
+rtmp://f13h.mine.nu/sat/tv771
+#EXTINF:-1 ,Unknown_102
+rtmp://f13h.mine.nu/sat/tv701
+#EXTINF:-1 ,Unknown_103
+rtmp://f13h.mine.nu/sat/tv721
+#EXTINF:-1 ,Unknown_104
+http://ali.hlspull.yximgs.com/live/zxcvbnm9852.flv
+#EXTINF:-1 ,Unknown_105
+http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
+#EXTINF:-1 ,Unknown_106
+rtmp://f13h.mine.nu/sat/tv091
+#EXTINF:-1 ,Unknown_107
+https://aktv.top/AKTV/live/aktv/null8/AKTV.m3u8
+#EXTINF:-1 ,Unknown_108
+http://61.221.215.25:8800/hls/47/index.m3u8
+#EXTINF:-1 ,Unknown_109
+https://aktv.top/AKTV/live/aktv/null12/AKTV.m3u8
+#EXTINF:-1 ,Unknown_110
+https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+#EXTINF:-1 ,Unknown_111
+http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
